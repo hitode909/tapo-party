@@ -1,0 +1,17 @@
+{
+  "name": "tapo-party",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tp-link-tapo-connect": "^1.0.8"
+  },
+  "engines" : {
+    "node" : ">=16.14.0"
+  }
+}
