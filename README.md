@@ -6,7 +6,9 @@ This is useful for home party.
 
 ```
 $ npm ci
-$ npm start
+$ TAPO_USERNAME='***@example.com' \
+  TAPO_PASSWORD='...' \
+  npm start
 ```
 
 # Reuirements
