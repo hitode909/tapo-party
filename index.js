@@ -48,7 +48,7 @@ const run = async () => {
       const changed = tapo.setColour(token, randomColor());
       changed.catch((e) => console.warn(e));
     }
-    await wait(500);
+    await wait(1000);
   }
 };
 
